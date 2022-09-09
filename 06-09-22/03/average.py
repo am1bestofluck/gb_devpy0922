@@ -1,6 +1,8 @@
 #считаем среднюю скажем так четырёх чисел
 class Average():
-    def __init__(self,collection_i=None,limit=4) -> None:
+    def __doc__(self) ->str:
+        return 'Считаем среднюю арифметическую'
+    def __init__(self,collection_i=None,limit=4) -> str:
         self.limit=limit
         self.average=0
         if not isinstance(collection_i,list) and not isinstance(collection_i,tuple) and not isinstance(collection_i,range):
@@ -60,7 +62,7 @@ class Average():
         return self.average
 
 def main():
-    print('считаем среднюю от пользователя')
+    print(Average.__doc__)
     q=Average()
     print(q)
     args=[
