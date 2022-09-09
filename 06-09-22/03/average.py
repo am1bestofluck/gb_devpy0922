@@ -1,6 +1,7 @@
+#test
 #считаем среднюю скажем так четырёх чисел
 class Average():
-    def __doc__(self) ->str:
+    def __doc__() ->str:
         return 'Считаем среднюю арифметическую'
     def __init__(self,collection_i=None,limit=4) -> str:
         self.limit=limit
@@ -62,9 +63,10 @@ class Average():
         return self.average
 
 def main():
-    print(Average.__doc__)
+    print(Average.__doc__())
     q=Average()
     print(q)
+def main_debug():
     args=[
         [30,70,10,90],
         range(1,301,10),
