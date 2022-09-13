@@ -4,7 +4,8 @@ class Side(Enum):
     right=auto()
 from array_init import Semi_array
 
-def turn_array(array_i:list):
+def turn_array(array_i:list)->list:
+    '''отзеркаливаем список'''
     array_m=[]
     for i in array_i:
         array_m.append(None)
