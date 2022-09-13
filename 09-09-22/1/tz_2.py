@@ -23,7 +23,7 @@ def get_sum_of_elements(core:list,limits:dict)->int:
     return sum_o
 
 def main():
-    example=Semi_array(size=5,limit=110,unique=True)
+    example=Semi_array(size=10,limit=20,unique=True)
     list_exa=example.get_instance()
     limits_dict=get_extremum_indexes(object=list_exa)
     print(limits_dict)
