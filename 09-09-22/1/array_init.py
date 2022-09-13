@@ -8,7 +8,7 @@ class Semi_array():
         self.limits=(0,0)#init
         self.unique=unique
         if self.unique:
-            assert self.size<self.limit
+            assert self.size<=self.limit
             pass
         assert self.size>0
         self.__math()
