@@ -3,7 +3,6 @@
  * при этом vscode почему то ставит " *" в каждой новой строчке...
 но она большой роли не играет, вот!
  */
-import java.util.Arrays;
 class why_hello_world_is_so_wordy{
         public static void main(String[] args) {
             //[2, 5, 13, 7, 6, 4]
