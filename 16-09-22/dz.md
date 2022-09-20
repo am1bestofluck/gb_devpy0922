@@ -50,3 +50,5 @@ __Дооформить инструкцию по работе с Git, испол
 |git commit -m "text"| задаёт комментарий без привлечения внешнего редактора|
 |git commit -a| git add . +git commit #предложит описать коммит|
 |git commit -am "text"| git add . +git commit -m "text"|
+
+Добавляем строку №2 для -p
